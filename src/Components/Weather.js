@@ -33,15 +33,14 @@ function Weather() {
   return (
     <Container>
       <Row>
-        <Col style={{ padding: "4rem" }}>
+        <Col style={{ padding: "3rem" }}>
           <Card
             border="warning"
-            style={{ width: "30rem", height: "40rem", margin: "auto" }}
-            className="bg-light"
+            style={{ width: "30rem", height: "42rem", margin: "auto", backgroundColor: "#F0EFF4" }}
           >
             <Card.Body>
               <Container className="h-100">
-                <div className="bg-primary d-flex justify-content-around">
+                <div className="d-flex justify-content-around shadow mb-4 bg-white rounded">
                   <div className="pt-4">
                     <Card.Title style={{ fontSize: "2.5rem" }}>
                       {Math.round(weather?.current?.temp)}°C

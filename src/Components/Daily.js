@@ -8,9 +8,9 @@ function Daily(props) {
     const day = weekday[d.getDay()];
     console.log(day)
   return (
-    <div className='bg-warning d-flex justify-content-around'>
+    <div className='d-flex justify-content-around my-2 shadow-sm rounded' style={{backgroundColor: "#E7C8DD"}}>
         <div><WiDayLightWind style={{fontSize: "3rem", marginTop: "5px"}}/></div>
-        <div className='fs-2'>{data.temp.day}</div>
+        <div className='fs-2'>{Math.round(data.temp.day)}°C</div>
         <div className='fs-4'>{day}</div>
     </div>
   );
