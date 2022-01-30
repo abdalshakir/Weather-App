@@ -36,7 +36,12 @@ function Weather() {
         <Col style={{ padding: "3rem" }}>
           <Card
             border="warning"
-            style={{ width: "30rem", height: "42rem", margin: "auto", backgroundColor: "#F0EFF4" }}
+            style={{
+              width: "30rem",
+              height: "42rem",
+              margin: "auto",
+              backgroundColor: "#F0EFF4",
+            }}
           >
             <Card.Body>
               <Container className="h-100">
